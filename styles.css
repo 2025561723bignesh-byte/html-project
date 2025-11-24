@@ -1,60 +1,25 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #efefef;
+    font-family: Arial, sans-serif;
 }
 
-header {
-    background-color: #fdf73f;
-    color: rgb(7, 7, 7);
-    padding: 1rem;
-    text-align: center;
-}
-
-nav a {
-    color: rgb(13, 13, 13);
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-main {
-    max-width: 800px;
-    margin: 20px auto;
+.styled-box {
+    width: 350px;
     padding: 20px;
-}
-
-.recipe-card {
-    background: #fefc77;
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.recipe-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-}
-
-.details ul, .ingredients ul, .instructions ol {
-    list-style-type: none;
-    padding: 0;
-}
-
-.details li, .ingredients li, .instructions li {
-    background: #fef9b4;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 3px;
-}
-
-footer {
+    margin: 60px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    border: 2px solid #0077cc;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
+}
+
+.styled-box h2 {
+    color: #0077cc;
+    margin-bottom: 10px;
+}
+
+.styled-box p {
+    color: #333;
+    font-size: 16px;
 }
